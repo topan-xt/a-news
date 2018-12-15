@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">A News Portal</string>
+    <string name="sub_title_name">Choose your favorite news portal</string>
+    <string name="home_title">Choose your trusty News Source</string>
+    <string name="button_find_article">Tap to find article from this source</string>
+    <string name="msg_loading_data">Loading Data</string>
+    <string name="search_hint">Find news here</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.assesment.topan.anews">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".app.features.splashscreen.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.features.sources.SourcesActivity"/>
+        <activity android:name="com.assesment.topan.anews.app.base.BaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.assesment.topan.anews.app.features.articles.ArticlesActivity"/>
+        <activity android:name=".app.features.articles.readarticle.ReadArticleActivity"/>
+        <activity android:name=".app.features.articles.search.SearchActivity"/>
+    </application>
+
+</manifest>

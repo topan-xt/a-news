@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSmallest">7sp</dimen>
+    <dimen name="textExtraSmall">9sp</dimen>
+    <dimen name="textSmall">11sp</dimen>
+    <dimen name="textMedium">13sp</dimen>
+    <dimen name="textLarge">15sp</dimen>
+    <dimen name="textExtraLarge">20sp</dimen>
+    <dimen name="textLargest">25sp</dimen>
+
+
+    <dimen name="spaceDivider">1dp</dimen>
+    <dimen name="spaceSmallest">2dp</dimen>
+    <dimen name="spaceSmall">6dp</dimen>
+    <dimen name="spaceMedium">10dp</dimen>
+    <dimen name="spaceLarge">14dp</dimen>
+    <dimen name="spaceExtraLarge">18dp</dimen>
+
+    <dimen name="marginLoadingSplashScreen">46dp</dimen>
+</resources>
